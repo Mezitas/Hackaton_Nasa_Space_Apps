@@ -1,0 +1,36 @@
+{
+  "paginas": [
+    {
+      "id": 1,
+      "texto": "Había una vez un bosque lleno de magia.",
+      "imagenes": [
+        { "src": "img/personaje.jpg", "x": 0, "y": 0 },
+        { "src": "img/fondo.png", "x": 200, "y": 100, "movible": true }
+      ],
+      "opciones": [
+        { "texto": "Seguir adelante", "next": 2 },
+        { "texto": "Explorar el bosque", "next": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "El hada te guió hasta un río brillante.",
+      "imagenes": [
+        { "src": "https://via.placeholder.com/600x300/87ceeb/000?text=Río", "x": 0, "y": 0 }
+      ],
+      "opciones": [
+        { "texto": "Fin", "next": null }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Encontraste un árbol parlante.",
+      "imagenes": [
+        { "src": "https://via.placeholder.com/600x300/8b4513/fff?text=Árbol", "x": 0, "y": 0 }
+      ],
+      "opciones": [
+        { "texto": "Fin", "next": null }
+      ]
+    }
+  ]
+}
