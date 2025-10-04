@@ -2,7 +2,7 @@
   "paginas": [
     {
       "id": 1,
-      "texto": "Había una vez un bosque lleno de magia.",
+      "texto": "Había una vez Si lees esto, recuérdame tanto como yo, que en mi tristeza te recuerdo, felicidad mía, que fue por ti, amor mío, que fue contigo. Recuérdame, para que nuestras mentes se conecten, vuelen y estén juntas, recuérdame hasta que tu corazón este listo para amar, porque el mío te ama desde aquella primera flor, aquella primera palabra, desde aquel primer vistazo,mi corazón no miente, el dolor demuestra,",
       "imagenes": [
         { "src": "img/personaje.jpg", "x": 0, "y": 0 },
         { "src": "img/fondo.png", "x": 200, "y": 100, "movible": true }
