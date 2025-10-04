@@ -26,10 +26,24 @@ let cuentoData = null;
     texto.className = "texto";
     texto.textContent = pagina.texto;
     div.appendChild(texto);
+    
 
+    //fondo
+    const fondoContainer = document.createElement("div");
+    fondoContainer.className = "fondo";
+    
+    pagina.fondo.forEach(imgData => {
+      const imgf = document.createElement("img");
+      imgf.src = imgData.src;
+      imgf.style.left = imgData.x + "px";
+      imgf.style.top = imgData.y + "px";
+      fondoContainer.appendChild(imgf);
+    });
+    div.appendChild(fondoContainer);
     // Imágenes
     const imgContainer = document.createElement("div");
     imgContainer.className = "imagenes";
+    
     pagina.imagenes.forEach(imgData => {
       const img = document.createElement("img");
       img.src = imgData.src;
@@ -42,6 +56,12 @@ let cuentoData = null;
       }
       imgContainer.appendChild(img);
     });
+    div.appendChild(imgContainer);
+    
+    //Centro
+    const centro = document.createElement("div");
+    centro.className = "centro";
+    div.appendChild(fondoContainer);
     div.appendChild(imgContainer);
 
     // Opciones
